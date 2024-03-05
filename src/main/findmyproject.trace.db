@@ -1,0 +1,3 @@
+2024-03-04 12:02:48 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * [*]FROMRESEARCHER_PROJECT"; SQL statement:
+SELECT * FROMRESEARCHER_PROJECT [42000-214]
