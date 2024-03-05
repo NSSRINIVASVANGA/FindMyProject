@@ -66,7 +66,7 @@ public class ResearcherJpaService implements ResearcherRepository {
                 newResearcher.setSpecialization(researcher.getSpecialization());
             }
             if (researcher.getProjects() != null) {
-                List<Project> projects = researcher.getProjects();
+                List<Project> projects = newResearcher.getProjects();
 
                 for (Project project : projects) {
                     project.getResearchers().remove(newResearcher);
