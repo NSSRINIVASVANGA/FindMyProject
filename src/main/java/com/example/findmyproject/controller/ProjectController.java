@@ -30,7 +30,7 @@ public class ProjectController {
 
     @PutMapping("/researchers/projects/{projectId}")
     public Project updateProject(@PathVariable("projectId") int projectId, @RequestBody Project project) {
-        return projectJpaService.updatePrject(projectId, project);
+        return projectJpaService.updateProject(projectId, project);
     }
 
     @DeleteMapping("/researchers/projects/{projectId}")
